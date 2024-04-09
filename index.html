@@ -5,28 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+    <script src="https://kit.fontawesome.com/7c858e9753.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="page-wrapper">
       <header id="header">
         <div class="logo">
-          <img
-            id="header-img"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-            alt="original trombones logo"
-          />
+          <span>Good Sheperd Baguio</span>
         </div>
 
         <nav id="nav-bar">
           <ul>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#product">Product</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
             <li><a class="nav-link" href="#pricing">Pricing</a></li>
           </ul>
         </nav>
@@ -35,7 +26,7 @@
       <div class="container"></div>
 
       <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
+        <h2>Homemade Baguio Products</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input
             name="email"
@@ -49,86 +40,79 @@
       </section>
 
       <div class="container">
-        <section id="features">
+        <section id="product">
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="icon"><i class="fa-solid fa-house"></i></div>
             <div class="desc">
-              <h2>Premium Materials</h2>
+              <h2>Homemade</h2>
               <p>
-                Our trombones use the shiniest brass which is sourced locally.
-                This will increase the longevity of your purchase.
+                Experience the heartwarming touch of homemade with our crafted goods. From baked delights to charming decor, each item is made with love and care. Taste the difference of homemade today!
               </p>
             </div>
           </div>
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="icon"><i class="fa-solid fa-seedling"></i></div>
             <div class="desc">
-              <h2>Fast Shipping</h2>
+              <h2>Natural Ingredients</h2>
               <p>
-                We make sure you recieve your trombone as soon as we have
-                finished making it. We also provide free returns if you are not
-                satisfied.
+                Pure indulgence awaits with our homemade treasures, meticulously crafted with nature's finest. From delectable treats to skincare essentials, each product boasts premium natural ingredients for a guilt-free experience. Discover homemade luxury, straight from the heart of nature.
               </p>
             </div>
           </div>
           <div class="grid">
             <div class="icon">
-              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+              <i class="fa-solid fa-face-smile" aria-hidden="true"></i>
             </div>
             <div class="desc">
-              <h2>Quality Assurance</h2>
+              <h2>Customer Satisfaction</h2>
               <p>
-                For every purchase you make, we will ensure there are no damages
-                or faults and we will check and test the pitch of your
-                instrument.
+                Your satisfaction is our priority! We take pride in delivering products that exceed your expectations. From quality ingredients to impeccable craftsmanship, we ensure every purchase brings joy and satisfaction. Experience the delight of homemade goods, backed by our commitment to your happiness.
               </p>
             </div>
           </div>
         </section>
-        <section id="how-it-works">
-          <iframe
-            id="video"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+        <section id="about">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nShY6tIeU3k?si=vSYnJ95I5S5L94kq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         <section id="pricing">
-          <div class="product" id="tenor">
-            <div class="level">Tenor Trombone</div>
-            <h2>$600</h2>
+          <div class="product">
+            <div class="level">Strawberry Jam</div>
+            <h2>Php 120</h2>
             <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
+              <li>Made from fresh strawberries</li>
             </ol>
             <button class="btn">Select</button>
           </div>
-          <div class="product" id="bass">
-            <div class="level">Bass Trombone</div>
-            <h2>$900</h2>
+          <div class="product">
+            <div class="level">Ube Jam</div>
+            <h2>Php 150</h2>
             <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
+              <li>Made from fresh purple yam</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product">
+            <div class="level">Blueberry Jam</div>
+            <h2>Php 150</h2>
+            <ol>
+              <li>Made from fresh blueberries</li>
             </ol>
             <button class="btn">Select</button>
           </div>
           <div class="product" id="valve">
-            <div class="level">Valve Trombone</div>
-            <h2>$1200</h2>
+            <div class="level">Guava Jam</div>
+            <h2>Php 160</h2>
             <ol>
-              <li>Plays similar to a Trumpet</li>
-              <li>Great for Jazz Bands</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
+              <li>Made from fresh guava</li>
             </ol>
             <button class="btn">Select</button>
           </div>
         </section>
+        <div class="link">
+          <a href="https://www.facebook.com/goodshepherdbaguio/" target="_blank">
+            Visit Good Sheperd Facebook Page
+          </a>
+        </div>
         <footer>
           <ul>
             <li><a href="#">Privacy</a></li>
